@@ -17,6 +17,7 @@
   padding-inline: 10px;
   padding-block-end: 66px;
   margin-block-end: 40px;
+  min-block-size: 100vh;
 }
 
 .decorated-zone {
@@ -198,7 +199,7 @@ link:hover {
 
 .footer__content {
   place-items: center;
-  block-size: 668px;
+  min-block-size: 100vh;
 }
 
 .footer__hero-title {
@@ -298,10 +299,6 @@ link:hover {
     grid-column: 2/3;
   }
 
-  .footer__content {
-    block-size: 1024px;
-  }
-
   .footer__hero-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -337,7 +334,4 @@ link:hover {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .footer__content  {
-    block-size: 768px;
-  }
 }
